@@ -213,13 +213,28 @@ for i in list:
     else:
         print(i)
     
-
+print(l1)
 #Python program to print negative numbers in a list
+list =[12,2,-5,-8,-3,-4,12,2,-5]
+l1=[]
+for i in list:
+    if i<0:
+        list.append(i)
+print(list)
 
 
 
-#Python program to print all positive numbers in a range
 
-#Python program to print all negative numbers in a range
 
 #Python program to count positive and negative numbers in a list
+list=[12,-5 ,5,-4,-3,2,54,32,12]
+l1=[]
+neg=0
+pos=0
+for i in list:
+    if i>0:
+        pos=pos+1
+    else:
+        neg=neg+1
+print("positive =",pos)
+print("negative = ",neg)

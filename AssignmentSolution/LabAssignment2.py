@@ -93,7 +93,6 @@ for i in range(5,0,-1):
         print("*",end=" ")
     print()
 
-
 #        * 
 #      * * *
 #    * * * * *
@@ -101,8 +100,6 @@ for i in range(5,0,-1):
 #    * * * * *  
 #      * * *
 #        *
-
-
 for i in range(5):
     for j in range(5-1-i):
         print(" ",end=" ")
@@ -112,23 +109,9 @@ for i in range(5):
 for i in range(5,0,-1):
     for j in range(5-i):
         print(" ",end=" ")
-
     for j in  range(2*i-1):
         print("*",end=" ")
     print()
-
-"""
-9.
-           1
-         1   1
-       1   2   1
-     1   3   3    1
-   1  4    6   4   1
- 1  5   10   10  5   1 
-
-
-"""
-
 """10.
 1
 2 3
