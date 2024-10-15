@@ -23,7 +23,7 @@ for i  in range(10):
     print(i)
     print()
 
-
+ 
 
 #while loop 
 num=0
