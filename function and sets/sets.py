@@ -58,3 +58,12 @@ print("Difference (set1 - set2):", difference_set)
 # Using the inbuilt symmetric_difference() method
 symmetric_difference_set = set1.symmetric_difference(set2)
 print("Symmetric Difference:", symmetric_difference_set) 
+# Example of issubset()
+setA = {1, 2, 3}
+setB = {1, 2, 3, 4, 5}
+
+is_subset = setA.issubset(setB)
+print("Is setA a subset of setB?", is_subset)  # Output: True
+# Example of issuperset()
+is_superset = setB.issuperset(setA)
+print("Is setB a superset of setA?", is_superset)  # Output: True
