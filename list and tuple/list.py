@@ -41,35 +41,6 @@ print(list[1: ])
 print(list[0: ])
 print(list[4: ])
 
-#Tuple -
-# tuple = immutable  ,ordered collections of element means once a tuple is created we cannot modify this.
-tuple=("rohan ","physics",32,12.2)
-tuple1= (1,2,3,32,12.2)
-print("Item at 0th index",tuple[0] )
-print("Item at 0th index",tuple1[0] )
-#accesing using negative index
-print("Item at 0th index",tuple[-1] )
-print("Item at 0th index",tuple1[-3])
-
-#Accesing tuple  item using slicing 
-tup1 =("a","b","d","c")
-tup2= (23.90,True,-55,1+5j)
-
-print ("Items from index 1 to last in tuple: ", tuple1[1:])
-print ("Items from index 0 to 1 in tuple1: ",tuple1[:2])
-
-#update a tuple
-T1 = (10, 20, 30, 40)
-# Tuple to be concatenated
-T2 = ('one', 'two', 'three', 'four')
-# Updating the tuple using the concatenation operator
-T1 = T1 + T2
-print(T1)
-print(tuple.count(3))
-print(tuple.index(2))
-
-
-
 
 
 
