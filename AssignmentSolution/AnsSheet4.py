@@ -241,6 +241,39 @@ print("Random choice:", random_item)
 sample = random.sample(items, 2)  # Picks 2 unique random elements from the list
 print("Random sample:", sample)
 
+#repetation operator on list 
+mylist = [1,2,3]
+repeated_list= mylist*3
+print(repeated_list)
+
+#iteration over list with for and while loop 
+# sorted list in desending order 
+
+  
+def sort_list_descending(lst):
+    lst.sort(reverse=True)  # Sort the list in descending order
+    return lst
+
+
+l = [1, 2, 3, 3, 2, 4, 5, 6]
+sorted_list = sort_list_descending(l)
+print("Sorted list in descending order:", sorted_list)
+
+
+#concatenate list 
+T1= [1,2,3,4]
+t2=[4,4,2,2,3]
+l3= T1+t2
+print(l3)
+#copy list in another list 
+
+original_list = [1, 2, 3, 4, 5]
+copied_list = original_list.copy()
+
+print("Copied list using copy():", copied_list)
+
+
+
 
 
 
