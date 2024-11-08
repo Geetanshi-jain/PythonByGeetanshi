@@ -32,3 +32,38 @@ print(range_array)
 linspace_array = np.linspace(0,1,5)
 print(linspace_array)
 
+#Basic array operations
+#lement-wise Addition
+#Syntax: np.add(array1, array2)
+array1=np.array([1,2,3])
+array2= np.array([4,5,6])
+res= np.add(array1,array2)
+print(res)
+# Element wise substraction
+#syntax- 
+#np.substract(Array1,array2)
+#Description: Subtracts the elements of array2 from array1, element by element. 
+array1= np.array([5,6,7])
+array2= np.array([1,2,3])
+result= np.substract(array1,array2)
+#Element wise multiplications
+array1=np.array([1,2,4])
+array2=np.array([5,6,7])
+res= np.multiply(array1,array2)
+print(res)
+#4.element wise division 
+np.divide()
+
+#5. lement-wise Division
+#Syntax: np.divide(array1, array2)
+arr1= np.array([3,6,9])
+arr2= np.array([2,3,4])
+result= np.divide(arr1,arr2)
+
+
+
+#Dot product (matrix multiple )
+arr1= np.array([4,9,10])
+arr2= np.array([2,3,4])
+result= np.dot(arr1,arr2)
+print(result)
